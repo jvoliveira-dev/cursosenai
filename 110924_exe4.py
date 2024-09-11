@@ -7,8 +7,7 @@ def pode_se_alistar(idade, sexo):
         else:
             return "Não pode se alistar."
     else:
-        return "Não pode se alistar."
-
+        return "Não pode se alistar"
 
 idade = int(input("Digite a idade da pessoa: "))
 sexo = input("Digite o sexo da pessoa (m/f): ").strip().lower()
